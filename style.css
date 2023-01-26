@@ -1,0 +1,416 @@
+:root{
+  --pri-clr1: #c9a9a6;
+  --pri-clr2: #008080;
+}
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+    font-size: 15pt;
+}
+#home{
+  background:radial-gradient(rgba(0, 0, 0, 0.5), var(--pri-clr1)),url(Img/dam3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo {
+  font-size: 20px;
+  color: #fff;
+  width: 100px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  background-color: red;
+  background-image: linear-gradient(to top, #974ec4 0%, #fff 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fil-color: transparent;
+}
+.home-text{
+  text-align: center;
+   background-color: white;
+   background-image: linear-gradient(to top, #fff 0%, #63d2db 100%);
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fil-color: transparent;
+  padding-top: 180px;
+}
+.home-text h1{
+  font-size: 60px;
+   font-family: 'Kaushan Script', cursive;
+}
+.home-text p{
+  font-size: 20px;
+  font-style: italic;
+}
+.home-text h3{
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid white;
+}
+.home-text h1 span{
+  font-size: 3rem;
+  color: red;
+}
+.deadline{
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+.time{
+  border: 1px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+/* sidebar */
+.sideNav{
+  width: 0px;
+  height: 100vh;
+  position: fixed;
+  top: 0;;
+  right: 0;
+  background: var(--pri-clr1);
+  z-index: 2;
+  transition: .5s
+}
+.showNav{
+  width: 250px;
+}
+nav ul li{
+  list-style: none;
+  margin: 50px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: var(--pri-clr2);
+  font-weight: bold;
+  font-family: 'Kaushan Script', cursive;
+}
+.manuBtn{
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: var(--pri-clr2);
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  z-index: 3;
+}
+.manuBtn p{
+  width: 20px;
+  margin: 15px 15px;
+}
+  @media screen and (max-width: 600px){
+ .home-text h1{
+   font-size: 44px;
+ }
+ .home-btn a{
+   display: block;
+   margin: 20px auto;
+ }
+} 
+
+/* invitation */
+#invitation {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #eeffee;
+  position: relative;
+}
+.title-text{
+  text-align: center;
+  padding-bottom:  70px;
+}
+.title-text h5{
+  font-size: 30px;
+  margin: auto;
+  font-weight:bold;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  color: red;
+}
+.title-text p{
+  font-size: 15px;
+  font-style: italic;
+  margin: 20px;
+}
+.music{
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+.music audio{
+  outline: none;
+}
+
+@media screen and (max-width: 600px){
+  .invite-img{
+    flex-basis: 100%;
+  }
+  .music{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+
+  }
+}
+
+#our-story{
+  width: 100%;
+  padding: 70px 0;
+  font-family: 'Kaushan Script', cursive;
+}
+.story-box{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+.story{
+  flex-basis: 50%;
+  font-family: 'Shadows Into Light', cursive;
+}
+.story h1{
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 100%;
+  color: var(--pri-clr2);
+}
+.story p{
+  padding: 0 20px;
+  text-align: justify;
+
+}
+.story-img{
+  flex-basis: 50%;
+  margin: auto;
+}
+.story-img img{
+  width: 70%;
+  border-radius: 40px;
+}
+@media screen and (max-width: 600px){
+  .story{
+    flex-basis: 100%;
+  }
+  .story-img{
+    flex-basis: 100%;
+    margin: 20px;
+  }
+}
+
+
+#arrangement {
+  width: 100%;
+  padding: 70px 0;
+  background-color: #eeffee;
+  font-family: 'Kaushan Script', cursive;
+}
+.arrangement-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.arrangement-col{
+  flex-basis: 40%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+.arrangement-row h4{
+  margin-left: 30%;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--pri-clr1);
+}
+
+
+@media screen and (max-width: 600px){
+  .arrangement-col{
+    flex-basis: 100%;
+  }
+  .arrangement-row h4{
+    margin: auto;
+  }
+}
+
+#friends{
+  width: 100%;
+  padding: 70px 0;
+  background-color: #63d2db;
+}
+.couple-bestie h1{
+  text-align: center;  
+  padding-bottom:  20px;
+  font-family: 'Kaushan Script', cursive; 
+  background-image: linear-gradient(to top, #974ec3 0%, #63d2db 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fil-color: transparent;
+  
+} 
+.bestie-con{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.col-3{ 
+  padding: 0px;
+  max-width:  300px;
+  margin: 0 0 50px 50px;
+} 
+.col-3 p{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive; 
+  background-image: linear-gradient(to top, #974ec3 0%, #63d2db 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fil-color: transparent;
+}
+.col-3 img{
+  width: 100%;
+  border-radius: 7px;
+  transition: all .5s;
+}
+.col-3 img:hover{
+  transform: scale(1.1);
+}
+.gb{
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Kaushan Script', cursive; 
+  background-image: linear-gradient(to top, #974ec3 0%, #63d2db 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fil-color: transparent;
+}
+.besties-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media screen and (max-width: 600px){
+  .bestie-con{
+    display: block;
+ 
+  }
+  .besties-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+   
+  }
+}
+
+#meet-us{
+    background: url(Img/mus.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 5rem;
+   
+}
+audio{
+  color: #fff;
+}
+@media screen and (max-width: 600px){
+    #meet-us{
+      background: url(Img/7-1.jpg);
+      background-size: cover;
+      /* background-repeat: no-repeat; */
+      background-position: center center;
+      height: 100vh;
+    
+  }
+}
+
+
+
+/* Photo */
+#photo{
+  width: 100%;
+  padding: 70px 0;
+  background-color: #eeffee;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.photo-gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: space-between;
+  align-items: center;
+ }
+ .col-4{ 
+  padding: 0px;
+  max-width:  300px;
+  margin: 0 0 50px 50px;
+} 
+.col-4 img{
+  width: 100%;
+  border-radius: 7px;
+  transition: all .5s;
+}
+.col-4 img:hover{
+  transform: scale(1.4);
+}
+@media screen and (max-width: 600px){
+  .photo-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    /* margin-left: 10%; */
+  }
+}
+
+footer{
+  background-color: #333;
+  height: 20px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
