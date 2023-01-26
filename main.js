@@ -171,65 +171,66 @@ const pictures = [
 const besties = [
   {
     id: 1,
-    images: "./img/photo (2).jpg",
-    name: "Noel"
+    images: "./img/Busola.jpg",
+    name: "Busola",
   },
   {
     id: 2,
-    images: "./img/photo (4).jpg",
-    name: "Sunday"
+    images: "./img/Oluwafunmilayo.jpg",
+    name: "Oluwafunmilayo",
   },
   {
     id: 3,
-    images: "./img/photo (10).jpg",
-    name: "Onome"
-  },
-  {
-    id: 4,
-    images: "./img/photo (11).jpg",
-    name: "Daniel"
+    images: "./img/Oluwaseyifunmi.jpg",
+    name: "Oluwaseyifunmi",
   },
   {
     id: 5,
-    images: "./img/photo (12).jpg",
-    name: "Femi"
+    images: "./img/Olamide.jpg",
+    name: "Olamide",
   },
   {
-    id: 6,
-    images: "./img/photo (14).jpg",
-    name: "Tosin"
+    id: 4,
+    images: "./img/james.jpg",
+    name: "James",
   },
-  {
-    id: 7,
-    images: "./img/photo (3).jpg",
-    name: "Faith"
-  },
-  {
-    id: 8,
-    images: "./img/photo (5).jpg",
-    name: "Stacie"
-  },
-  {
-    id: 9,
-    images: "./img/photo (6).jpg",
-    name: "Olamide"
-  },
-  {
-    id: 10,
-    images: "./img/photo (7).jpg",
-    name: "Bukola"
-  },
-  {
-    id: 11,
-    images: "./img/photo (8).jpg",
-    name: "Enitan"
-  },
-  {
-    id: 12,
-    images: "./img/photo (13).jpg",
-    name: "Josephine"
-  },
-]
+
+  // {
+  //   id: 6,
+  //   images: "./img/photo (14).jpg",
+  //   name: "Tosin",
+  // },
+  // {
+  //   id: 7,
+  //   images: "./img/photo (3).jpg",
+  //   name: "Faith",
+  // },
+  // {
+  //   id: 8,
+  //   images: "./img/photo (5).jpg",
+  //   name: "Stacie",
+  // },
+  // {
+  //   id: 9,
+  //   images: "./img/photo (6).jpg",
+  //   name: "Olamide",
+  // },
+  // {
+  //   id: 10,
+  //   images: "./img/photo (7).jpg",
+  //   name: "Bukola",
+  // },
+  // {
+  //   id: 11,
+  //   images: "./img/photo (8).jpg",
+  //   name: "Enitan",
+  // },
+  // {
+  //   id: 12,
+  //   images: "./img/photo (13).jpg",
+  //   name: "Josephine",
+  // },
+];
 
 
 window.addEventListener('DOMContentLoaded', ()=>{
@@ -245,7 +246,7 @@ const displayPictures = () =>{
   });
   const displayPhoto = besties.map((photo) =>{
     return `<div class="col-3">
-            <img src="${photo.imagesz}" alt="">
+            <img src="${photo.images}" alt="">
             <p>${photo.name}</p>
             </div> `
   })
