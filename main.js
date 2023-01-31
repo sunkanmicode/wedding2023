@@ -110,63 +110,63 @@ const pictures = [
   {
     id: 6,
     category: "intro",
-    image: "./img/pic(6).jpg"
+    image: "./img/z1.jpg"
   },
   {
     id: 7,
     category: "intro",
-    image: "./img/pic(7).jpg"
+    image: "./img/z2.jpg"
   },
   {
     id: 8,
     category: "intro",
-    image: "./img/pic(8).jpg"
+    image: "./img/z3.jpg"
   },
   {
     id: 14,
     category: "intro",
-    image: "./img/pic(18).jpg"
+    image: "./img/z4.jpg"
   },
-  {
-    id: 15,
-    category: "All",
-    image: "./img/pic(13).jpg"
-  },
-  {
-    id: 16,
-    category: "All",
-    image: "./img/pic(14).jpg"
-  },
-  {
-    id: 9,
-    category: "intro",
-    image: "./img/pic(12).jpg"
-  },
-  {
-    id: 10,
-    category: "intro",
-    image: "./img/pic(10).jpg"
-  },
-  {
-    id: 13,
-    category: "intro",
-    image: "./img/pic(11).jpg"
-  },
-  {
-    id: 3,
-    category: "All",
-    image: "./img/pic(3).jpg"
-  },
-  {
-    id: 4,
-    category: "All",
-    image: "./img/pic(4).jpg"
-  },
-  {
-    id: 5,
-    category: "All",
-    image: "./img/pic(5).jpg"
-  },
+  // {
+  //   id: 15,
+  //   category: "All",
+  //   image: "./img/pic(13).jpg"
+  // },
+  // {
+  //   id: 16,
+  //   category: "All",
+  //   image: "./img/pic(14).jpg"
+  // },
+  // {
+  //   id: 9,
+  //   category: "intro",
+  //   image: "./img/pic(12).jpg"
+  // },
+  // {
+  //   id: 10,
+  //   category: "intro",
+  //   image: "./img/pic(10).jpg"
+  // },
+  // {
+  //   id: 13,
+  //   category: "intro",
+  //   image: "./img/pic(11).jpg"
+  // },
+  // {
+  //   id: 3,
+  //   category: "All",
+  //   image: "./img/pic(3).jpg"
+  // },
+  // {
+  //   id: 4,
+  //   category: "All",
+  //   image: "./img/pic(4).jpg"
+  // },
+  // {
+  //   id: 5,
+  //   category: "All",
+  //   image: "./img/pic(5).jpg"
+  // },
 ];
 const besties = [
   {
@@ -195,41 +195,27 @@ const besties = [
     name: "James",
   },
 
-  // {
-  //   id: 6,
-  //   images: "./img/photo (14).jpg",
-  //   name: "Tosin",
-  // },
-  // {
-  //   id: 7,
-  //   images: "./img/photo (3).jpg",
-  //   name: "Faith",
-  // },
-  // {
-  //   id: 8,
-  //   images: "./img/photo (5).jpg",
-  //   name: "Stacie",
-  // },
+  {
+    id: 6,
+    images: "./img/olumide.jpg",
+    name: "Olumide",
+  },
+  {
+    id: 7,
+    images: "./img/opeyemi.jpg",
+    name: "Opeyemi",
+  },
+  {
+    id: 8,
+    images: "./img/Seyi.jpg",
+    name: "Seyi",
+  },
   // {
   //   id: 9,
   //   images: "./img/photo (6).jpg",
   //   name: "Olamide",
   // },
-  // {
-  //   id: 10,
-  //   images: "./img/photo (7).jpg",
-  //   name: "Bukola",
-  // },
-  // {
-  //   id: 11,
-  //   images: "./img/photo (8).jpg",
-  //   name: "Enitan",
-  // },
-  // {
-  //   id: 12,
-  //   images: "./img/photo (13).jpg",
-  //   name: "Josephine",
-  // },
+
 ];
 
 
@@ -241,14 +227,14 @@ window.addEventListener('DOMContentLoaded', ()=>{
 const displayPictures = () =>{
   const displayPic = pictures.map((pic) =>{
     return `<div class="col-4">
-            <img src="${pic.images}" alt="">
+            <img src="${pic.image}" loading="lazy" alt="">
             </div> `
   });
   const displayPhoto = besties.map((photo) =>{
     return `<div class="col-3">
-            <img src="${photo.images}" alt="">
+            <img src="${photo.images}" loading="lazy" alt="">
             <p>${photo.name}</p>
-            </div> `
+            </div> `;
   })
   showPhoto = displayPhoto.join('')
     bestiesGallery.innerHTML = showPhoto;
