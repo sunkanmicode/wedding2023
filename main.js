@@ -109,22 +109,22 @@ const pictures = [
   {
     id: 6,
     category: "intro",
-    image: "/Img/z1.jpg",
+    image: "./Img/z1.jpg",
   },
   {
     id: 7,
     category: "intro",
-    image: "/Img/z2.jpg",
+    image: "./Img/z2.jpg",
   },
   {
     id: 8,
     category: "intro",
-    image: "Img/z3.jpg",
+    image: "./Img/z3.jpg",
   },
   {
     id: 14,
     category: "intro",
-    image: "Img/z4.jpg",
+    image: "./Img/z4.jpg",
   },
   // {
   //   id: 15,
