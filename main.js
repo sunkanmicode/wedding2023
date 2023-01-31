@@ -107,12 +107,12 @@ sideNav.addEventListener('click', () => {
 
 const pictures = [
   {
-    id: 8,
+    id: 1,
     category: "intro",
     image: "./Img/z1.jpg",
   },
   {
-    id: 8,
+    id: 2,
     category: "intro",
     image: "./Img/z2.jpg",
   },
