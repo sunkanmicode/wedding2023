@@ -138,30 +138,40 @@ const pictures = [
     image: "./Img/z5.jpg",
   },
   {
-    id: 15,
+    id: 16,
     category: "intro",
     image: "./Img/z7.jpg",
   },
-  // {
-  //   id: 15,
-  //   category: "All",
-  //   image: "./img/pic(13).jpg"
-  // },
-  // {
-  //   id: 16,
-  //   category: "All",
-  //   image: "./img/pic(14).jpg"
-  // },
-  // {
-  //   id: 9,
-  //   category: "intro",
-  //   image: "./img/pic(12).jpg"
-  // },
-  // {
-  //   id: 10,
-  //   category: "intro",
-  //   image: "./img/pic(10).jpg"
-  // },
+  {
+    id: 17,
+    category: "intro",
+    image: "./Img/z8.jpg",
+  },
+  {
+    id: 19,
+    category: "intro",
+    image: "./Img/z9.jpg",
+  },
+  {
+    id: 19,
+    category: "intro",
+    image: "./Img/z10.jpg",
+  },
+  {
+    id: 20,
+    category: "intro",
+    image: "./Img/z11.jpg",
+  },
+  {
+    id: 21,
+    category: "intro",
+    image: "./Img/z12.jpg",
+  },
+  {
+    id: 22,
+    category: "intro",
+    image: "./Img/z13.jpg",
+  },
 ];
 const besties = [
   {

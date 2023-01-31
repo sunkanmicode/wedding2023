@@ -18,13 +18,13 @@ body {
 }
 .logo {
   font-size: 20px;
-  color: #fff;
+  /* color: #fff; */
   width: 100px;
   position: absolute;
   top: 4%;
   left: 10%;
   background-color: red;
-  background-image: linear-gradient(to top, #974ec4 0%, #fff 100%);
+  background-image: linear-gradient(to top,rgba(0, 0, 0, 0.5), var(--pri-clr1));
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
