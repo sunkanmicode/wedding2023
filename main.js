@@ -185,6 +185,11 @@ const besties = [
     name: "Oluwafunmilayo",
   },
   {
+    id: 10,
+    images: "Img/chisom.jpg",
+    name: "Chisom",
+  },
+  {
     id: 3,
     images: "Img/Oluwaseyifunmi.jpg",
     name: "Oluwaseyifunmi",
@@ -215,12 +220,16 @@ const besties = [
     images: "Img/seyi.jpg",
     name: "Seyi",
   },
+  {
+    id: 9,
+    images: "Img/bunmi.jpg",
+    name: "Bunmi",
+  },
   // {
   //   id: 9,
   //   images: "./img/photo (6).jpg",
   //   name: "Olamide",
   // },
-
 ];
 
 
