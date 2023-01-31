@@ -110,22 +110,22 @@ const pictures = [
   {
     id: 6,
     category: "intro",
-    image: "img/z1.jpg"
+    image: "Img/z1.jpg"
   },
   {
     id: 7,
     category: "intro",
-    image: "img/z2.jpg"
+    image: "Img/z2.jpg"
   },
   {
     id: 8,
     category: "intro",
-    image: "img/z3.jpg"
+    image: "Img/z3.jpg"
   },
   {
     id: 14,
     category: "intro",
-    image: "img/z4.jpg"
+    image: "Img/z4.jpg"
   },
   // {
   //   id: 15,
@@ -147,67 +147,48 @@ const pictures = [
   //   category: "intro",
   //   image: "./img/pic(10).jpg"
   // },
-  // {
-  //   id: 13,
-  //   category: "intro",
-  //   image: "./img/pic(11).jpg"
-  // },
-  // {
-  //   id: 3,
-  //   category: "All",
-  //   image: "./img/pic(3).jpg"
-  // },
-  // {
-  //   id: 4,
-  //   category: "All",
-  //   image: "./img/pic(4).jpg"
-  // },
-  // {
-  //   id: 5,
-  //   category: "All",
-  //   image: "./img/pic(5).jpg"
-  // },
+  
 ];
 const besties = [
   {
     id: 1,
-    images: "img/Busola.jpg",
+    images: "Img/Busola.jpg",
     name: "Busola",
   },
   {
     id: 2,
-    images: "img/Oluwafunmilayo.jpg",
+    images: "Img/Oluwafunmilayo.jpg",
     name: "Oluwafunmilayo",
   },
   {
     id: 3,
-    images: "img/Oluwaseyifunmi.jpg",
+    images: "Img/Oluwaseyifunmi.jpg",
     name: "Oluwaseyifunmi",
   },
   {
     id: 5,
-    images: "img/Olamide.jpg",
+    images: "Img/Olamide.jpg",
     name: "Olamide",
   },
   {
     id: 4,
-    images: "img/james.jpg",
+    images: "Img/james.jpg",
     name: "James",
   },
 
   {
     id: 6,
-    images: "img/olumide.jpg",
+    images: "Img/olumide.jpg",
     name: "Olumide",
   },
   {
     id: 7,
-    images: "img/opeyemi.jpg",
+    images: "Img/opeyemi.jpg",
     name: "Opeyemi",
   },
   {
     id: 8,
-    images: "img/seyi.jpg",
+    images: "Img/seyi.jpg",
     name: "Seyi",
   },
   // {
