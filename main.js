@@ -109,6 +109,16 @@ const pictures = [
   {
     id: 8,
     category: "intro",
+    image: "./Img/z1.jpg",
+  },
+  {
+    id: 8,
+    category: "intro",
+    image: "./Img/z2.jpg",
+  },
+  {
+    id: 8,
+    category: "intro",
     image: "./Img/z3.jpg",
   },
   {
